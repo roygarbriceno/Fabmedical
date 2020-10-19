@@ -22,6 +22,7 @@ env:
  resourceGroupName: 'Fabmedical-235955'
  containerRegistryName: 'acr235955'
  containerRegistry: 'acr235955.azurecr.io'
+ dockerfilePath: './content-web'
  tag: '${{ github.run_id  }}'
 
 # Jobs define the actions that take place when code is pushed to the master branch
